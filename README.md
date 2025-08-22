@@ -86,12 +86,6 @@ Construct electrical power–speed relation for fans.
 Compute maxima for volume flow, pressure rise, power loss from polynomial curve sets.
 
 
-## Tips
-- Pick tangent points where curvature changes—denser around elbows of the curve.
-- Use lower_hull_planes as a quick post-processing check to ensure underestimation.
-- Keep units consistent (e.g., m³/h, Pa, W) across functions and gradients.
-- For 3-D hulls, install scipy. For turbo-machinery characteristics, install sympy.
-
 ## Note on AI usage
 Parts of this repository (documentation and/or code snippets) were prepared with the assistance of AI-based tools, namely ChatGPT version 4 and 5. All outputs were reviewed, validated, and adapted by the authors.
 
