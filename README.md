@@ -27,13 +27,18 @@ If you use this code in academic work, please cite the paper (preferred) or this
 ---
 
 ## Installation
-
+Install locally:
 ```bash
 # from the project root
-pip install -e .
-
-# or install runtime deps explicitly
-pip install numpy scipy sympy
+pip install .
+```
+If you want to directly install from GitHub (without cloning):
+```bash
+pip install git+https://github.com/jhpb7/underestimating-hyperplanes
+```
+To install all subpackages use
+```bash
+pip install -r requirements.txt
 ```
 
 Python ≥ 3.7 required.
